@@ -1,0 +1,12 @@
+.text {
+  transition: .2s;
+}
+
+.arrow{
+  opacity: 0;
+  transition: .2s;
+}
+
+.text:hover .arrow {
+  opacity: 1;
+}
